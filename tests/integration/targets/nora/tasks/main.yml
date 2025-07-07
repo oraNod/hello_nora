@@ -1,0 +1,9 @@
+- name: Test 1 - Greet my cat Nora
+  oranod.hello_nora.hello:
+    cat: Nora
+    greeting: pspsps
+  register: result
+
+- name: Test 1 - Check the return values
+  ansible.builtin.assert:
+    that: result.message == 'pspsps, Nora!'
