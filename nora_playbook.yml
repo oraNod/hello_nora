@@ -1,0 +1,13 @@
+- name: Demo hello module test
+  hosts: localhost
+  tasks:
+    - name: Greet the cat
+      oranod.hello_nora.hello:
+        cat: Nora
+        greeting: pspspsps
+      check_mode: true
+      register: result
+
+    - name: Print message
+      ansible.builtin.debug:
+        var: result.message
