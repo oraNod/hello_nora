@@ -50,6 +50,20 @@ See
 [Ansible Using Collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html)
 for more details.
 
+## Using the collection execution environment
+
+You can build EEs with the `execution-environment.yml` file in this repository or by pulling the built image at:
+
+```bash
+docker pull ghcr.io/oranod/hello_nora_ee:latest
+```
+
+You can also run the example playbook within the EE, for example:
+
+```bash
+$ ansible-navigator run nora_playbook.yml --execution-environment-image ghcr.io/oranod/hello_nora_ee:latest --mode stdout
+```
+
 ## Release notes
 
 See the
