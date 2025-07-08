@@ -1,17 +1,17 @@
-ancestor: null
+---
+ancestor:
 releases:
   1.0.0:
     changes:
       major_changes:
-      - The hello module to greet a cat has been added.
+        - The hello module to greet a cat has been added.
       minor_changes:
-      - Added integration test
-      - Added unit test
-      release_summary: This is the initial release of the oranod.hello_nora collection.
-        Enjoy!
+        - Added integration test
+        - Added unit test
+      release_summary: This is the initial release of the oranod.hello_nora collection. Enjoy!
     codename: Midnight Snack
     modules:
-    - description: Greet a kitty
-      name: hello
-      namespace: oranod.hello_nora
-    release_date: '2025-07-08'
+      - description: Greet a kitty
+        name: hello
+        namespace: oranod.hello_nora
+    release_date: "2025-07-08"
