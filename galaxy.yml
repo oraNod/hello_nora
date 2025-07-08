@@ -8,22 +8,22 @@ name: "hello_nora"
 version: 1.0.0
 readme: README.md
 authors:
-  - your name <example@domain.com>
+  - Don Naro dnaro@redhat.com
 
-description: your collection description
+description: A sample module to greet my cat, Nora.
 license_file: LICENSE
 
 # TO-DO: update the tags based on your content type
-tags: ["linux", "tools"]
+tags: ["linux", "tools", "kitties"]
 
 # TO-DO: maintain this list to reflect the collection's dependencies
 dependencies:
   "ansible.utils": "*" # note: "*" selects the latest version available
 
-repository: http://example.com/repository
-documentation: http://docs.example.com
-homepage: http://example.com
-issues: http://example.com/issue/tracker
+repository: https://github.com/oraNod/hello_nora
+documentation: https://github.com/oraNod/hello_nora/blob/main/README.md
+homepage: https://github.com/oraNod/hello_nora/blob/main/README.md
+issues: https://github.com/oraNod/hello_nora/issues
 
 # A list of file glob-like patterns used to filter any files or directories that should not be included in the build
 # artifact. A pattern is matched from the relative path of the file or directory of the collection directory. This
