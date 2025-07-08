@@ -21,4 +21,4 @@ class TestGreeting:
             create_greeting()
 
         with pytest.raises(TypeError):
-           create_greeting("Hello")
+            create_greeting("Hello")
